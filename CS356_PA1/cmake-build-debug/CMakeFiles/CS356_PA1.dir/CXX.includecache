@@ -6,23 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/home/matt/CLionProjects/CS356_PA1/BlockCipher.cpp
+/home/matthew/CLionProjects/CS356/CS356_PA1/BlockCipher.cpp
 vector
 -
 iostream
 -
+fstream
+-
 BlockCipher.h
-/home/matt/CLionProjects/CS356_PA1/BlockCipher.h
+/home/matthew/CLionProjects/CS356/CS356_PA1/BlockCipher.h
 
-/home/matt/CLionProjects/CS356_PA1/BlockCipher.h
+/home/matthew/CLionProjects/CS356/CS356_PA1/BlockCipher.h
 string
 -
 vector
 -
 
-/home/matt/CLionProjects/CS356_PA1/main.cpp
+/home/matthew/CLionProjects/CS356/CS356_PA1/StreamCipher.cpp
+StreamCipher.h
+/home/matthew/CLionProjects/CS356/CS356_PA1/StreamCipher.h
 iostream
 -
+fstream
+-
+
+/home/matthew/CLionProjects/CS356/CS356_PA1/StreamCipher.h
+string
+-
+
+/home/matthew/CLionProjects/CS356/CS356_PA1/main.cpp
+iostream
+-
+stdio.h
+-
+string.h
+-
 BlockCipher.h
-/home/matt/CLionProjects/CS356_PA1/BlockCipher.h
+/home/matthew/CLionProjects/CS356/CS356_PA1/BlockCipher.h
+StreamCipher.h
+/home/matthew/CLionProjects/CS356/CS356_PA1/StreamCipher.h
 

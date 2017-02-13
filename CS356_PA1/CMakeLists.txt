@@ -3,5 +3,5 @@ project(CS356_PA1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp BlockCipher.cpp BlockCipher.h)
+set(SOURCE_FILES main.cpp BlockCipher.cpp BlockCipher.h StreamCipher.cpp StreamCipher.h)
 add_executable(CS356_PA1 ${SOURCE_FILES})

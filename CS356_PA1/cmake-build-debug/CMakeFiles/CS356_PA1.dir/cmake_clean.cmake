@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CS356_PA1.dir/main.cpp.o"
   "CMakeFiles/CS356_PA1.dir/BlockCipher.cpp.o"
+  "CMakeFiles/CS356_PA1.dir/StreamCipher.cpp.o"
   "CS356_PA1.pdb"
   "CS356_PA1"
 )

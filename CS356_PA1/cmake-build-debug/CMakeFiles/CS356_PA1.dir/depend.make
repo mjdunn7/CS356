@@ -4,6 +4,10 @@
 CMakeFiles/CS356_PA1.dir/BlockCipher.cpp.o: ../BlockCipher.cpp
 CMakeFiles/CS356_PA1.dir/BlockCipher.cpp.o: ../BlockCipher.h
 
+CMakeFiles/CS356_PA1.dir/StreamCipher.cpp.o: ../StreamCipher.cpp
+CMakeFiles/CS356_PA1.dir/StreamCipher.cpp.o: ../StreamCipher.h
+
 CMakeFiles/CS356_PA1.dir/main.cpp.o: ../BlockCipher.h
+CMakeFiles/CS356_PA1.dir/main.cpp.o: ../StreamCipher.h
 CMakeFiles/CS356_PA1.dir/main.cpp.o: ../main.cpp
 

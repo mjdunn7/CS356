@@ -11,17 +11,24 @@
 
 class BlockCipher {
 public:
-    BlockCipher(std::string fileName);
+    BlockCipher();
+    bool encrypt(std::string fileName, const char* key, std::string outputFile);
+    bool unencrypt(std::string fileName, const char* key, std::string outputFile);
+
 private:
     bool parseBlocks();
     void printBlocks();
     void freeBlocks();
     void xorBlocks();
-    void performSwap();
+    std::string performSwap(std::string& text);
+    std::string getStringFromBlocks();
+    bool writeToFile(std::string& text, std::string& outputFilename);
+    bool getStringFromFile(std::string* fileContents);
+    void writeStringIntoBlocks(std::string& fileContents);
 
     std::string m_fileName;
     std::vector<char*> m_blocks;
-    char* m_key;
+    const char* m_key;
 };
 
 
