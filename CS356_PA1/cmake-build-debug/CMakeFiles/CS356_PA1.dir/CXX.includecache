@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matt/CLionProjects/CS356_PA1/BlockCipher.cpp
+vector
+-
+iostream
+-
+BlockCipher.h
+/home/matt/CLionProjects/CS356_PA1/BlockCipher.h
+
+/home/matt/CLionProjects/CS356_PA1/BlockCipher.h
+string
+-
+vector
+-
+
+/home/matt/CLionProjects/CS356_PA1/main.cpp
+iostream
+-
+BlockCipher.h
+/home/matt/CLionProjects/CS356_PA1/BlockCipher.h
+
